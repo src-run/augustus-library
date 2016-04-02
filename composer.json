@@ -1,0 +1,43 @@
+{
+    "name"        : "src-run/augustus-library",
+    "license"     : "MIT",
+    "type"        : "metapackage",
+    "homepage"    : "https://get.src.run/augustus-library",
+    "description" : "This library is a meta-package for all augustus- packages.",
+    "support" : {
+        "email"  : "rmf@src.run",
+        "issues" : "https://get.src.run/augustus-library/issues",
+        "source" : "https://get.src.run/augustus-library/git",
+        "irc"    : "irc://irc.efnet.org/scribe"
+    },
+    "keywords"   : [
+        "augustus-library", "exception", "library", "rmf", "src-run"
+    ],
+    "authors"    : [
+        {
+            "name"    : "Rob Frawley 2nd",
+            "email"   : "rmf@src.run",
+            "homepage": "https://get.src.run/rmf",
+            "role"    : "Project Lead"
+        }
+    ],
+    "require" : {
+        "php"                          : "~5.6|~7.0",
+        "augustus-polyfill-library"    : "~0.5",
+        "augustus-utility-library"     : "~0.5",
+        "augustus-primitive-library"   : "~0.5",
+        "augustus-reflection-library"  : "~0.5",
+        "augustus-exception-library"   : "~0.5",
+        "augustus-deprecation-library" : "~0.5"
+    },
+    "minimum-stability" : "dev",
+    "prefer-stable"     : true,
+    "config": {
+        "bin-dir" : "bin"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master" : "0.5-dev"
+        }
+    }
+}
