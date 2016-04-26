@@ -28,7 +28,7 @@
         "src-run/augustus-primitive-library"   : "^0.5",
         "src-run/augustus-reflection-library"  : "^0.5",
         "src-run/augustus-exception-library"   : "^0.5",
-        "src-run/augustus-deprecation-library" : "^0.6"
+        "src-run/augustus-deprecation-library" : "5.0.x-dev"
     },
     "minimum-stability" : "dev",
     "prefer-stable"     : true,
