@@ -7,14 +7,14 @@
 ## Overview
 
 [Welcome](https://get.src.run/go/readme_welcome)!
-The `src-run/augustus-library` package provides
-a meta-package for all augustus- packages.
+The `src-run/augustus-library` package provides a
+composer meta-package to require all augustus-* packages
 
 ### Grouping
 
 This package is part of the [augustus](https://get.src.run/augustus-library/group)
 group ([explanation](https://get.src.run/augustus-library/group_explanation)),
-comprised of other releases with a concentration in 
+comprised of other releases with a concentration in
 *core reflection base classes*,
 and related functionality.
 
@@ -24,7 +24,7 @@ This package represents a single project within a
 [large collection](https://get.src.run/go/explore) of open-source code released
 under the *SR* namespace, comprised of framework-agnostic libraries,
 and a number of Symfony bundles. These projects are authored and maintained
-by [Rob Frawley 2nd](https://get.src.run/rmf) and 
+by [Rob Frawley 2nd](https://get.src.run/rmf) and
 [collaborators](https://get.src.run/augustus-library/github_collaborators).
 
 ## Quick Start
